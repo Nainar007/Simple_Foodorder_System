@@ -13,6 +13,12 @@ function pay(){
 function problems()
 {
  var name=document.getElementById("contact-name").value;
+ if(name=='')
+ {
+    alert("Enter your Name.");
+ }
+ else{
  alert(name+",Your problem had been send.");
+ }
+ document.getElementById("form2").reset();
 }
-
