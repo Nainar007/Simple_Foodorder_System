@@ -16,7 +16,16 @@
     height: 50px;
     padding: 2px 20px;
    }
-   
+   body{
+  background-color: #f4f5f7; 
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  box-shadow:5px 4px 8px #999;
+}
    li a
    {
     color:black;
