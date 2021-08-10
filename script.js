@@ -32,7 +32,7 @@ function myFunction()
   $('#Theme').on('click', function() {
     var $el = $(this),
       textNode = this.lastChild;
-    $el.find('span').toggleClass('fas fa-moon fad fa-sun');
+    $el.find('span').toggleClass('fas fa-sun fad fa-moon');
     textNode.nodeValue = ($el.hasClass('Theme') ? 'Dark' : 'Light') + ' Theme ' 
     $el.toggleClass('Theme');
   });
