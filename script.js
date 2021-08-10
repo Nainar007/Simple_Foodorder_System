@@ -28,5 +28,13 @@ function myFunction()
      var element = document.body;
      element.classList.toggle("dark-mode");
   }
-  
+ jQuery(function($) {
+  $('#Theme').on('click', function() {
+    var $el = $(this),
+      textNode = this.lastChild;
+    $el.find('span').toggleClass('fas fa-moon fad fa-sun');
+    textNode.nodeValue = ($el.hasClass('Theme') ? 'Dark' : 'Light') + ' Theme ' 
+    $el.toggleClass('Theme');
+  });
+}); 
  
