@@ -18,7 +18,7 @@ function problems()
     alert("Enter your Name.");
  }
  else{
- alert(name+",Your problem had been send.");
+ alert(name+",Your problem had been send and will solve soon.");
  }
  document.getElementById("form2").reset();
 }
