@@ -3,7 +3,7 @@ function pay(){
     var cardnumber=document.getElementById("cardno").value;
     if(cardnumber=='')
     {
-        alert("    E \n    Payement is incomplete...");
+        alert("    Enter Your Cardnumber. \n    Payement is incomplete...");
     }
     else{
     alert("    Your card number : "+cardnumber+"\n    Payement successful...!");
