@@ -21,7 +21,12 @@
      background-color: #f4f5f7; 
      color: black;
    }
-
+   .dark-mode
+  {
+       background-color: black; 
+     color: white;
+  }
+    
   
    li a
    {
