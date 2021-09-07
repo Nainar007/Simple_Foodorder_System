@@ -22,12 +22,7 @@
      color: black;
    }
 
-  .dark-mode 
-  {
-   background-color: black;
-   color: white;
-   box-shadow:5px 4px 8px #999;
-   }
+  
    li a
    {
     color:black;
