@@ -8,7 +8,7 @@ function pay(){
     else{
     alert("    Your card number : "+cardnumber+"\n    Payement successful...!");
     }
- 
+  document.getElementById("form1").reset();
 }
 function problems()
 {
